@@ -1,0 +1,15 @@
+Time resolution is 1 ps
+Time=0 | A=10 | B=20 | Opcode=000 | Result=30 | Compare=00 | Valid=1
+Time=20000 | A=40 | B=20 | Opcode=001 | Result=20 | Compare=00 | Valid=1
+Time=40000 | A=60 | B=42 | Opcode=010 | Result=40 | Compare=00 | Valid=1
+Time=60000 | A=60 | B=42 | Opcode=011 | Result=62 | Compare=00 | Valid=1
+Time=80000 | A=42 | B= 0 | Opcode=100 | Result=21 | Compare=00 | Valid=1
+Time=100000 | A= 5 | B= 6 | Opcode=101 | Result=30 | Compare=00 | Valid=1
+Time=120000 | A=20 | B=20 | Opcode=110 | Result= 0 | Compare=00 | Valid=1
+Time=140000 | A=40 | B=20 | Opcode=110 | Result= 0 | Compare=01 | Valid=1
+Time=160000 | A=10 | B=30 | Opcode=110 | Result= 0 | Compare=10 | Valid=1
+Time=180000 | A=50 | B=30 | Opcode=000 | Result=16 | Compare=00 | Valid=0
+Time=200000 | A=10 | B=30 | Opcode=001 | Result=44 | Compare=00 | Valid=0
+Time=220000 | A=10 | B=10 | Opcode=101 | Result=36 | Compare=00 | Valid=0
+Time=240000 | A=10 | B=20 | Opcode=111 | Result= 0 | Compare=00 | Valid=0
+$finish called at time : 260 ns : File "/home/CS210M_JUL26/CS25B006_L-10/CS25B006_L-10.srcs/sim_1/new/tb_main_alu.v" Line 113

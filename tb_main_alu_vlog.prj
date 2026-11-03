@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CS25B006_L-10.srcs/sources_1/new/adder.v" \
+"../../../../CS25B006_L-10.srcs/sources_1/new/adder12.v" \
+"../../../../CS25B006_L-10.srcs/sources_1/new/and_gate.v" \
+"../../../../CS25B006_L-10.srcs/sources_1/new/comparator.v" \
+"../../../../CS25B006_L-10.srcs/sources_1/new/full_adder.v" \
+"../../../../CS25B006_L-10.srcs/sources_1/new/full_subtractor.v" \
+"../../../../CS25B006_L-10.srcs/sources_1/new/half_adder.v" \
+"../../../../CS25B006_L-10.srcs/sources_1/new/main_alu.v" \
+"../../../../CS25B006_L-10.srcs/sources_1/new/multiplier.v" \
+"../../../../CS25B006_L-10.srcs/sources_1/new/not_gate.v" \
+"../../../../CS25B006_L-10.srcs/sources_1/new/or_gate.v" \
+"../../../../CS25B006_L-10.srcs/sources_1/new/subtractor.v" \
+"../../../../CS25B006_L-10.srcs/sim_1/new/tb_main_alu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
